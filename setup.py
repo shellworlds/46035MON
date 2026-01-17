@@ -1,0 +1,1 @@
+from setuptools import setup, find_packages\n\nsetup(\n    name='tumor-detection',\n    version='0.1.0',\n    packages=find_packages(),\n    install_requires=['numpy', 'pandas', 'scikit-learn', 'matplotlib'],\n)
